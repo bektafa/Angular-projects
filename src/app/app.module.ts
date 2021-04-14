@@ -17,6 +17,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { NewformComponent } from './newform/newform.component';
 
 
 
@@ -25,7 +26,8 @@ import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NewformComponent
   ],
   imports: [
     BrowserModule,
