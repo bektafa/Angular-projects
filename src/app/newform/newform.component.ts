@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewformComponent implements OnInit {
   title = 'Nested component works';
+  string = 'practice';
+  boolean = true;
+
+
   constructor() { }
 
   ngOnInit(): void {
