@@ -1,0 +1,36 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+
+
+
+  .label{
+    padding: 100px;
+    color: #fff;
+  }
+
+
+
+  input[type="file"] {
+      display: none;
+  }
+
+  .label-input{
+    font: bold 13px Arial;
+    text-decoration: none;
+    background-color: #c6ced1;
+    color: #030000;
+    padding: 100px 100px 100px 100px;
+    border-top: 1px solid #CCCCCC;
+    /* border-right: 1px solid #333333; */
+    /* border-bottom: 1px solid #333333; */
+    border-left: 1px solid #CCCCCC;
+  }
+
+  

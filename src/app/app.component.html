@@ -1,0 +1,52 @@
+<section>
+  <div class="example-button-row">
+    <button mat-raised-button color="primary">Delete</button>
+    <button mat-raised-button color="accent">Save</button>
+    <button mat-raised-button color="warn">Publish</button>
+  </div>
+</section>
+
+
+<input matInput>
+<mat-form-field appearance="fill">
+  <mat-label>Select language:</mat-label>
+  <mat-select>
+    <mat-option value="one">English</mat-option>
+    <mat-option value="two">Turkish</mat-option>
+    <mat-option value="two">German</mat-option>
+  </mat-select>
+</mat-form-field>
+
+
+<mat-form-field appearance="fill">
+  <mat-label>Name:</mat-label>
+  <input matInput>
+</mat-form-field>
+
+
+<mat-form-field appearance="fill">
+  <mat-label>Description:</mat-label>
+  <textarea matInput></textarea>
+</mat-form-field>
+
+
+<mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+  <mat-button-toggle value="bold">Easy</mat-button-toggle>
+  <mat-button-toggle value="italic">Medium</mat-button-toggle>
+  <mat-button-toggle value="underline">Hard</mat-button-toggle>
+</mat-button-toggle-group>
+
+<label class="label-input"> Insert image
+  <input type="file" id="File">
+</label> 
+
+<mat-divider></mat-divider>
+<section>
+  <div class="example-button-row">
+    <button mat-raised-button color="warn">SUBMIT</button>
+  </div>
+
+  <h1>{{title}}</h1>
+
+
+
