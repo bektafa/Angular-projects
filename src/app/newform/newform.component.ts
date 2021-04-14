@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./newform.component.css']
 })
 export class NewformComponent implements OnInit {
-
+  title = 'Nested component works';
   constructor() { }
 
   ngOnInit(): void {
